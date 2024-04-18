@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="./assets/css/leta.css">
+</head>
+<body>
+    
+    
+    <h1 class="titulo">Nissan GTR-R32</h1>
+    <a  class="btn-volver" href="index.html">Volver</a>
+    <div class="vehicle-container">
+        
+        <img id="main-image" class="fotoauto" src="./assets/img/nissan1.jpeg" alt="Vehículo">
+    </div>
+
+   
+    <div class="thumbnails">
+        <img class="thumbnail-image" src="./assets/img/gtr2.jpeg" alt="Thumbnail 1" onclick="changeMainImage('./assets/img/gtr2.jpeg')">
+        <img class="thumbnail-image" src="./assets/img/gtr3.jpeg" alt="Thumbnail 2" onclick="changeMainImage('./assets/img/gtr3.jpeg')">
+        <img class="thumbnail-image" src="./assets/img/gtr4.jpeg" alt="Thumbnail 3" onclick="changeMainImage('./assets/img/gtr4.jpeg')">
+        <img class="thumbnail-image" src="./assets/img/gtr5.jpeg" alt="Thumbnail 4" onclick="changeMainImage('./assets/img/gtr5.jpeg')">
+    </div>
+
+   
+    <div class="price">
+        Precio: $32,000,000 CLP
+    </div>
+
+    <ul class="info">
+        <a class="nav-link" >Documentos al Dia / Mantenciones al dia / 1 llaves / traccion trasera / Computador programable / multiple de admision / multiple de escape / Linea de escape / Frenos sumitomo / Llantas aro 18x9” / Butacas prisma Nrg / Voltante Nrg / Pomo Nrg </a>
+    </ul>
+  
+    
+    <button class="buy-button">Comprar</button>
+
+    <script>
+        function changeMainImage(imageSrc) {
+            document.getElementById('main-image').src = imageSrc;
+        }
+    </script>
+
+
+
+    
+</body>
+</html>

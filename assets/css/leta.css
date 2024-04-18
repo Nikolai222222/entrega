@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	height: 100vh;  
+	flex-direction: column; 
+	background-color: rgb(70, 69, 69);
+}
+.fotoauto{
+
+   width: 1200px;
+   height: 800px;
+   padding-top: 50px;
+ 
+   justify-content: center;
+}
+.thumbnail-image {
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+	text-align: center;
+}
+.thumbnails {
+    margin-top: 10px;
+	text-align: center;
+}
+.price {
+    font-size: 60px;
+    color: green;
+    margin-top: 10px;
+}
+.buy-button {
+    background-color: rgb(46, 46, 253);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+.titulo{
+	text-align: center;
+	font-size: 350%;
+	text-decoration: underline;
+	color: white;
+	padding-top: 300px;
+}
+.info{
+	color: white;
+	max-width: 30%;
+}
+.btn-volver{
+    margin-left: 95%;
+    font-size: 130%;
+	color: white;
+}

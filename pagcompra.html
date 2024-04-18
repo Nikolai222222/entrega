@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="./assets/css/leta.css">
+</head>
+<body>
+    
+    
+    <h1 class="titulo">BMW M3 Supercharger</h1>
+    <a  class="btn-volver" href="index.html">Volver</a>
+    <div class="vehicle-container">
+        
+        <img id="main-image" class="fotoauto" src="./assets/img/bmw.jpg" alt="Vehículo">
+    </div>
+
+   
+    <div class="thumbnails">
+        <img class="thumbnail-image" src="./assets/img/interior2.jpg" alt="Thumbnail 1" onclick="changeMainImage('./assets/img/interior2.jpg')">
+        <img class="thumbnail-image" src="./assets/img/imagen3.jpg" alt="Thumbnail 2" onclick="changeMainImage('./assets/img/imagen3.jpg')">
+        <img class="thumbnail-image" src="./assets/img/imagen4.jpg" alt="Thumbnail 3" onclick="changeMainImage('./assets/img/imagen4.jpg')">
+        <img class="thumbnail-image" src="./assets/img/imagen5.jpg" alt="Thumbnail 4" onclick="changeMainImage('./assets/img/imagen5.jpg')">
+    </div>
+
+   
+    <div class="price">
+        Precio: $40,900,000 CLP
+    </div>
+
+    <ul class="info">
+        <a class="nav-link" >Equipo extra (equipado con Supercharged ESS con 700 HP, embrague cerámico, discos nuevos, pastillas Hawk, aceite de motor, caja diferencial, refrigerante y líquido nuevo, kit fibra de carbono, escape Active Autowerke con catalítico de alto flujo), versión Cabrio (convertible), motor ocho cilindros 4.000 CC, Launch control, modos de conducción, caja de cambios automática DKG doble embrague siete velocidades con paddle shift, volante multifuncional con velocidad crucero, computador a bordo, pantalla iDrive, botón de encendido start-stop, sensores de estacionamiento, climatizadores delanteros </a>
+    </ul>
+  
+    
+    <button class="buy-button">Comprar</button>
+
+    <script>
+        function changeMainImage(imageSrc) {
+            document.getElementById('main-image').src = imageSrc;
+        }
+    </script>
+
+
+
+    
+</body>
+</html>

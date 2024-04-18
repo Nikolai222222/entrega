@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="./assets/css/leta.css">
+</head>
+<body>
+    
+    
+    <h1 class="titulo">Nissan Silvia S13 180SX</h1>
+    <a  class="btn-volver" href="index.html">Volver</a>
+    <div class="vehicle-container">
+        
+        <img id="main-image" class="fotoauto" src="./assets/img/san1.jpg" alt="Vehículo">
+    </div>
+
+   
+    <div class="thumbnails">
+        <img class="thumbnail-image" src="./assets/img/san2.jpg" alt="Thumbnail 1" onclick="changeMainImage('./assets/img/san2.jpg')">
+        <img class="thumbnail-image" src="./assets/img/san3.jpg" alt="Thumbnail 2" onclick="changeMainImage('./assets/img/san3.jpg')">
+        <img class="thumbnail-image" src="./assets/img/san4.jpg" alt="Thumbnail 3" onclick="changeMainImage('./assets/img/san4.jpg')">
+        <img class="thumbnail-image" src="./assets/img/san5.jpg" alt="Thumbnail 4" onclick="changeMainImage('./assets/img/san5.jpg')">
+    </div>
+
+   
+    <div class="price">
+        Precio: $19,500,000 CLP
+    </div>
+
+    <ul class="info">
+        <a class="nav-link" >-Documentacion todo en regla al dia
+            -Carrocería en estado original (no cortado ni nada raro)
+            -A/C funcionando!!!
+            -Catalitico sello verde
+            -Motor SR20 Hig port "inscrito"
+            -Llantas aro 17"
+            -Turbo TB28 customizado (cargando presión original 0.5)
+            -Linea de escape 2.5"
+            -Piping inox aftermarket (no hechizo)
+            -Filtro conico alto flujo
+            -Big intercooler frontal Blitz
+            -Oil cooler kit
+            -Relocator oil filter
+            -Bomba externa original bosch !!
+            -Regulador de presión de combustible principal customizado
+            -Regulador de presión de combustible secundario HPI
+            -Big radiator full aluminio 2.5"
+            -Frenos delanteros doble piston (nissan pathfinder)
+            -Frenos trasero de disco originales
+            - Relojes air/fuel y vac/boost  (instalación sobria)
+            - Strut bar delantera custom
+            -Suspension baja dureza original
+            - Bateria relocalizada
+            -Neblineros aftermarket
+            -Protector de carter custom (inox)</a>
+    </ul>
+  
+    
+    <button class="buy-button">Comprar</button>
+
+    <script>
+        function changeMainImage(imageSrc) {
+            document.getElementById('main-image').src = imageSrc;
+        }
+    </script>
+
+
+
+    
+</body>
+</html>

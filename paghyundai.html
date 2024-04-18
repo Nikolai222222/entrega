@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="./assets/css/leta.css">
+</head>
+<body>
+    
+    
+    <h1 class="titulo">Hyundai Genesis</h1>
+    <a  class="btn-volver" href="index.html">Volver</a>
+    <div class="vehicle-container">
+        
+        <img id="main-image" class="fotoauto" src="./assets/img/genesis1.jpeg" alt="Vehículo">
+    </div>
+
+   
+    <div class="thumbnails">
+        <img class="thumbnail-image" src="./assets/img/genesis2.jpeg" alt="Thumbnail 1" onclick="changeMainImage('./assets/img/genesis2.jpeg')">
+        <img class="thumbnail-image" src="./assets/img/genesis3.jpeg" alt="Thumbnail 2" onclick="changeMainImage('./assets/img/genesis3.jpeg')">
+        <img class="thumbnail-image" src="./assets/img/genesis4.jpeg" alt="Thumbnail 3" onclick="changeMainImage('./assets/img/genesis4.jpeg')">
+        <img class="thumbnail-image" src="./assets/img/genesis5.jpeg" alt="Thumbnail 4" onclick="changeMainImage('./assets/img/genesis5.jpeg')">
+    </div>
+
+   
+    <div class="price">
+        Precio: $32,000,000 CLP
+    </div>
+
+    <ul class="info">
+        <a class="nav-link" >Impecable vehiculo. Con extras como repro stage 2, downpipe, windbooster, gps, amplificador boss, subwoofer hertz. Motor nunca modificado. Ninguna fuga, ningun sonido raro. Es cosa de verlo y probarlo. </a>
+    </ul>
+  
+    
+    <button class="buy-button">Comprar</button>
+
+    <script>
+        function changeMainImage(imageSrc) {
+            document.getElementById('main-image').src = imageSrc;
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
